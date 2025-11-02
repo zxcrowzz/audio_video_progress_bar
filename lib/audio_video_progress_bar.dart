@@ -806,7 +806,7 @@ class _RenderProgressBar extends RenderBox {
   }
 
   /// The text style for the duration text labels. By default this style is
-  /// taken from the theme's [textStyle.bodyText].
+  /// taken from the theme's [textStyle.bodyMedium].
   TextStyle? get timeLabelTextStyle => _timeLabelTextStyle;
   TextStyle? _timeLabelTextStyle;
   set timeLabelTextStyle(TextStyle? value) {
